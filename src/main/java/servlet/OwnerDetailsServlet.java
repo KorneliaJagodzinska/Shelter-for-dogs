@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Optional;
 
-@WebServlet
+@WebServlet("/owner/details")
 public class OwnerDetailsServlet extends HttpServlet {
     private final EntityDao<Owner> ownerEntityDao = new EntityDao<>();
 
