@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class EntityDao<T> {
+public class  EntityDao<T> {
     public void saveOrUpdate(T entity) {
         Transaction transaction;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {

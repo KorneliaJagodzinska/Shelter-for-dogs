@@ -20,7 +20,7 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
 
-        <mapping class="com.sda.javagda31.webappdemo.model.Student"/>
-        <mapping class="com.sda.javagda31.webappdemo.model.Grade"/>
+        <mapping class="model.Owner"/>
+        <mapping class="model.Pet"/>
     </session-factory>
 </hibernate-configuration>
