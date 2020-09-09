@@ -21,8 +21,6 @@
     <label for="inputLast">Last name:</label> <input id="inputLast" type="text" name="lastNameValue"><br/>
     <%--birth date input type date--%>
     <label for="inputBirth">Birth date:</label> <input id="inputBirth" type="date" name="birthDateValue"><br/>
-    <%--special input type checkbox--%>
-    <label for="inputAge">Age:</label> <input id="inputAge" type="number" name="AgeValue"><br/>
 
     <input type="submit">
 </form>

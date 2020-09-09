@@ -5,6 +5,6 @@
 <html>
 <body>
 <jsp:include page="navigator.jsp"/>
-<h2>Hello World!</h2>
+<h2>Hello Owners!</h2>
 </body>
 </html>

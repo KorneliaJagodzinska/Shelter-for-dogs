@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.LocalDate;
 
-@WebServlet("/student/form")
+@WebServlet("/owner/form")
 public class OwnerAddServlet extends HttpServlet {
     private final EntityDao<Owner> ownerEntityDao = new EntityDao<>();
 

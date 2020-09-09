@@ -61,13 +61,7 @@
                 <c:out value="${właściciel.age}"/>
             </div>
             <div class="owner-cell">
-                <c:out value="${właściciel.special}"/>
-            </div>
-            <div class="owner-cell">
                 <c:out value="${właściciel.average}"/>
-            </div>
-            <div class="owner-cell">
-                <c:out value="${właściciel.ects}"/>
             </div>
             <div class="owner-cell actions-cell">
                 <a href="${pageContext.request.contextPath}/owner/details?id=${właściciel.id}">Details</a>

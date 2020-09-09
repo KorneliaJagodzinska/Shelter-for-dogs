@@ -7,12 +7,12 @@
         <a href="${pageContext.request.contextPath}/">Home</a>
     </li>
     <li>
-        <a href="${pageContext.request.contextPath}/student/form">Student form</a>
+        <a href="${pageContext.request.contextPath}/owner/form">Owner form</a>
     </li>
     <li>
-        <a href="${pageContext.request.contextPath}/student">Student list</a>
+        <a href="${pageContext.request.contextPath}/owner">Owner list</a>
     </li>
     <li>
-        <a href="${pageContext.request.contextPath}/grade/form">Grade form</a>
+        <a href="${pageContext.request.contextPath}/pet/form">Pet form</a>
     </li>
 </ul>

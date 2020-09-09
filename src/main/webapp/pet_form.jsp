@@ -37,7 +37,7 @@
     <select id="race" name="raceValue">
         <c:forEach items="${requestScope.all_races}" var="race">
             <option value="${race}">
-                <c:out value="${subj.name}"/>
+                <c:out value="${race.name}"/>
             </option>
         </c:forEach>
     </select>

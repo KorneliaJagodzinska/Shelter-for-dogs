@@ -5,7 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.url">
-            jdbc:mysql://localhost:3306/javagda31_jsp_students?serverTimezone=Europe/Warsaw&amp;createDatabaseIfNotExist=true
+            jdbc:mysql://localhost:3306/javagda31_jsp_owners?serverTimezone=Europe/Warsaw&amp;createDatabaseIfNotExist=true
         </property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">root</property>
