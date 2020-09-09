@@ -33,4 +33,36 @@ public class Pet {
     @EqualsAndHashCode.Exclude
     @ToString.Exclude
     private Owner owner;
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public Double getWeight() {
+        return weight;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public Race getRace() {
+        return race;
+    }
+
+    public boolean isPureRace() {
+        return pureRace;
+    }
+
+    public Owner getOwner() {
+        return owner;
+    }
 }

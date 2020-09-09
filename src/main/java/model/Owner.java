@@ -21,6 +21,10 @@ public class Owner {
 
     @Formula("(year(now())-year(birthDate))")
     private Integer age;
+    @Formula("pets.stream().count()")
+    private int amountOfPets;
+    @Formula("(SELECT AVG(p.value) from Pet p where p.owner_id=id)")
+    private Double averageOfPetsAge;
 
     @OneToMany(mappedBy = "owner", fetch = FetchType.EAGER, cascade = CascadeType.REMOVE)
     @Cascade(value = org.hibernate.annotations.CascadeType.REMOVE)
