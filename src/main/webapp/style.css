@@ -1,10 +1,24 @@
-.body{
+body{
     background:rgb(58,58,58);
     color: white;
     font-family: Helvetica;
 }
-.h1{
+h1{
     color: aqua;
+    margin: 20px;
+}
+nav{
+    display: inline-block;
+    width: 100px;
+}
+ul{
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block ;
+    margin: 20px;
 }
 .table {
     border: 1px solid #000;

@@ -5,42 +5,9 @@
 <html>
 <head>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/style.css">
-    <style>
-        body{
-            background:rgb(58,58,58);
-            color: white;
-            font-family: Helvetica;
-        }
-        h1{
-            color: aqua;
-            margin: 20px;
-        }
-        nav{
-            display: inline-block;
-            width: 100px;
-        }
-        ul{
-            list-style-type: none ;
-            margin: 0;
-            padding: 0;
-        }
-        li{
-            display: inline-block ;
-            margin: 20px;
-        }
-    </style>
 </head>
 <body>
 <jsp:include page="navigator.jsp"/>
-<header>
-    <nav>
-        <ul>
-            <li><a href=index.jsp>O nas</a></li>
-            <li><a href=galeria.jsp>Galeria</a></li>
-            <li><a href=kontakt.jsp>Kontakt</a></li>
-        </ul>
-    </nav>
-</header>
 
 <h1>Jak adoptować psa</h1>
 <p>
