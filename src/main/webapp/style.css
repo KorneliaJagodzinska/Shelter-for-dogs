@@ -2,13 +2,33 @@ body{
     background:rgb(58,58,58);
     color: white;
     font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px;
+    height: 100px;
+    background-color: black;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+section{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
 h1{
-    color: aqua;
+    color: goldenrod;
     margin: 20px;
 }
 nav{
-    display: inline-block;
+    display:flex;
     width: 100px;
 }
 ul{
@@ -17,14 +37,15 @@ ul{
     padding: 0;
 }
 li{
-    display: inline-block ;
-    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgreen;
     border-radius: 3px;
     padding: 2px;
     margin: 20px;
 }
 li:hover{
-    background-color: aquamarine;
+    background-color: lightcoral;
 }
 a{
     text-decoration: none;
@@ -79,7 +100,7 @@ a:hover{
 .details-section{
     width: 50%;
     margin: auto;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
 }
 .details-param{
@@ -98,7 +119,7 @@ a:hover{
 .pet-container{
     border: 1px solid #000;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
 }
 .pet-table-cell{
