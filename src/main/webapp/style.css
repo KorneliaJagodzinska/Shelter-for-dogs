@@ -31,14 +31,6 @@ h1{
     margin: 20px;
 }
 ul{
-
-    color: black;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    list-style-type: none;
-    text-transform: uppercase;
-    text-align: left;
     padding: 20px;
     height: 400px;
     background-color: white;
@@ -49,9 +41,19 @@ ul{
 }
 li{
     margin: auto;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: left;
 }
 li:hover{
-    background-color: lightcoral;
+    background-color: #7c8686;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
 }
 a{
     text-decoration: none;
