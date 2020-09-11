@@ -5,13 +5,9 @@ body{
     margin: 0;
     padding: 0;
 }
-header{
-    text-align: center;
-    padding: 20px;
-    height: 400px;
+header {
+
     background-color: white;
-    background-image: url("images/pies4.jpg");
-    background-size: 100%;
 }
 section{
     background: white;
@@ -35,12 +31,21 @@ h1{
     margin: 20px;
 }
 ul{
-    background: white;
+
     color: black;
     display: flex;
     flex-direction: column;
     padding: 20px;
     list-style-type: none;
+
+    text-align: left;
+    padding: 20px;
+    height: 200px;
+    background-color: white;
+    background-image: url("images/pies4.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 li{
     margin: auto;
