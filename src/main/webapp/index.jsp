@@ -11,6 +11,8 @@
     <nav>
         <jsp:include page="navigator.jsp"/>
     </nav>
+</header>
+<section class="section1">
     <h1>Jak adoptować psa</h1>
     <p>
         Ze względu na dobrostan psa, decyzja o jego adopcji powinna być dokładnie przemyślana.
@@ -19,8 +21,10 @@
         Podejmując tę bardzo osobistą decyzję należy przede wszystkim uświadomić sobie, co jesteśmy w stanie
         zaoferować psu.
     </p>
-</header>
-<section class="features">
+</section>
+
+
+<section class="section2">
     <div>
         <h2>Korzyści z adopcji psa</h2>
         <p>
