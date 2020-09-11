@@ -9,26 +9,10 @@ header {
 
     background-color: white;
 }
-section{
-    background: white;
-    color: gray;
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-}
-section .section1{
-  width: 300px;
-    height: 200px;
-
-}
 footer{
     background: black;
     color: white;
     margin:20px;
-}
-h1{
-    color: goldenrod;
-    margin: 20px;
 }
 ul{
     padding: 20px;
@@ -49,12 +33,6 @@ li{
     text-transform: uppercase;
     text-align: left;
 }
-/*li:hover{*/
-/*    background-color: #7c8686;*/
-/*    margin: 20px;*/
-/*    border-radius: 20px;*/
-/*    padding: 20px;*/
-/*}*/
 a{
     text-decoration: none;
 }

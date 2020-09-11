@@ -12,37 +12,10 @@
         <jsp:include page="navigator.jsp"/>
     </nav>
 </header>
-<section class="section1">
-
-</section>
+<section>
 
 
-<section class="section2">
-    <div>
-        <h2>Korzyści z adopcji psa</h2>
-        <p>
-            Może być to niezwykle satysfakcjonujące.
-            Dorosłe psy nauczone są już często zachowania czystości w domu.
-            Dorosłe psy mogą znać już podstawowe komendy.
-        </p>
-    </div>
-    <div>
-        <h2>Wyzwania wynikające z adopcji psa</h2>
-        <p>
-            Trudno jest przewidzieć wielkość dorosłych osobników w przypadku szczeniąt mieszańców.
-            U adoptowanych zwierząt mogą wystąpić problemy behawioralne.
-            Dorosłe psy mogą nie znać podstawowych komend lub mieć utrwalone złe nawyki.
-        </p>
-    </div>
-    <div>
-        <h2>Najważniejsze wskazówki dotyczące adopcji psa</h2>
-        <p>
-            Kluczem do udanej adopcji jest spędzanie czasu z wybranym psem, zanim zabierzemy go do domu.
-            Przed podjęciem ostatecznej decyzji postaraj się odwiedzić psa kilka razy, poproś o możliwość
-            zabrania go na spacer poza teren schroniska, zarówno na smyczy, jak i bez. Jeśli to możliwe,
-            przewieź go samochodem i poobserwuj jego zachowanie w różnych okolicznościach.
-        </p>
-    </div>
+
 </section>
 <footer>
     <button>
