@@ -13,14 +13,7 @@
     </nav>
 </header>
 <section class="section1">
-    <h1>Jak adoptować psa</h1>
-    <p>
-        Ze względu na dobrostan psa, decyzja o jego adopcji powinna być dokładnie przemyślana.
-        Tutaj omawiamy niektóre z kluczowych czynników, które pomogą Ci podjąć właściwą decyzję.
-        Adopcja psa, bez względu na to czy dotyczy szczenięcia czy psa dorosłego, ma swoje wady i zalety.
-        Podejmując tę bardzo osobistą decyzję należy przede wszystkim uświadomić sobie, co jesteśmy w stanie
-        zaoferować psu.
-    </p>
+
 </section>
 
 

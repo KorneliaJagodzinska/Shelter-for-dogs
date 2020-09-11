@@ -5,12 +5,25 @@ body{
     margin: 0;
     padding: 0;
 }
+header{
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+    background-color: white;
+    background-image: url("images/pies4.jpg");
+    background-size: 100%;
+}
 section{
     background: white;
     color: gray;
     margin: 20px;
     display: flex;
     flex-direction: row;
+}
+section .section1{
+  width: 300px;
+    height: 200px;
+
 }
 footer{
     background: black;
@@ -25,12 +38,12 @@ ul{
     background: white;
     color: black;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 20px;
+    list-style-type: none;
 }
 li{
     margin: auto;
-    width: 100px;
 }
 li:hover{
     background-color: lightcoral;
