@@ -37,10 +37,10 @@ ul{
     flex-direction: column;
     padding: 20px;
     list-style-type: none;
-
+    text-transform: uppercase;
     text-align: left;
     padding: 20px;
-    height: 200px;
+    height: 400px;
     background-color: white;
     background-image: url("images/pies4.jpg");
     background-size: 100%;
