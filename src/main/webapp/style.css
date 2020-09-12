@@ -49,27 +49,29 @@ a:hover{
 
 .owner-row{
     border: 1px dot-dash #f00;
-    display: inline;
+    flex-direction: row;
+    display: flex;
 }
 
 .owner-cell{
-    display: inline;
+    display: flex;
     width: 10%;
 }
 .header-row{
     border: 2px solid #000;
     font: 16px bold;
     width: 100%;
+    flex-direction: row;
     display: flex;
 }
 
 .header-cell{
     background-color: lightgray;
-    display: inline;
+    display: flex;
     width: 10%;
 }
 .actions-cell{
-    display: inline;
+    display: flex;
     background-color: darkgrey;
     width: 20%;
 }
@@ -78,47 +80,51 @@ a:hover{
     width: 90%;
     margin: auto;
     border: 1px solid #000;
-    display: inline;
+    flex-direction: row;
+    display: flex;
 }
 .details-section{
     width: 50%;
     margin: auto;
-    display: inline;
+    flex-direction: column;
+    display: flex;
 }
 .details-param{
-    display: inline;
+    display: flex;
     width: 100%;
 }
 .details-label{
-    display: inline;
+    display: flex;
     width: 50%;
     font-weight: bold;
 }
 .detail{
-    display: inline;
+    display: flex;
     width: 50%;
 }
 .pet-container{
     border: 1px solid #000;
-    display: inline;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 .pet-table-cell{
     width: 20%;
-    display: inline;
+    display: flex;
 }
 .pet-table-header-cell{
     width: 20%;
-    display: inline;
+    display: flex;
     font-weight: bold;
 }
 .pet-table-header{
-    display: inline;
+    display: flex;
     background-color: lightgray;
+    flex-direction: row;
     width: 100%;
 }
 .pet-table-row{
-    display: inline;
+    display: flex;
     width: 100%;
-
+    flex-direction: row;
 }
