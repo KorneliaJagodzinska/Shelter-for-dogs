@@ -27,9 +27,6 @@ public class OwnerAddServlet extends HttpServlet {
                 .birthDate(LocalDate.parse(req.getParameter("birthDateValue")))
                 .lastName(req.getParameter("lastNameValue"))
                 .firstName(req.getParameter("firstNameValue"))
-                .age(Integer.parseInt(req.getParameter("ageValue")))
-                .averageOfPetsAge(Double.parseDouble(req.getParameter("averageOfPetsAgeValue")))
-                .amountOfPets(Integer.parseInt(req.getParameter("amountOfPetsValue")))
                 .build();
 
         ownerEntityDao.saveOrUpdate(owner);

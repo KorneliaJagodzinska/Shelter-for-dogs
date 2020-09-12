@@ -61,7 +61,7 @@
                 <c:out value="${właściciel.age}"/>
             </div>
             <div class="owner-cell">
-                <c:out value="${właściciel.average}"/>
+                <c:out value="${właściciel.averageOfPetsAge}"/>
             </div>
             <div class="owner-cell actions-cell">
                 <a href="${pageContext.request.contextPath}/owner/details?id=${właściciel.id}">Details</a>

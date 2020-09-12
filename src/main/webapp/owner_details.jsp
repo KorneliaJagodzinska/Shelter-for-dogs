@@ -51,7 +51,7 @@
         <div class="details-param">
             <div class="details-label"></div>
             <div class="detail">
-                <a href="${pageContext.request.contextPath}/pets/form?ownerId=${requestScope.owner.id}">Add pet...</a>
+                <a href="${pageContext.request.contextPath}/pet/form?ownerId=${requestScope.owner.id}">Add pet...</a>
             </div>
         </div>
     </div>
