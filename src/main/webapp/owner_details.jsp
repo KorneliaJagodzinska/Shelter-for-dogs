@@ -63,13 +63,16 @@
                     Id
                 </div>
                 <div class="pet-table-header-cell">
-                    Value
+                    Name
                 </div>
                 <div class="pet-table-header-cell">
-                    Subject
+                    Birth Date
                 </div>
                 <div class="pet-table-header-cell">
-                    Datetime
+                    Race
+                </div>
+                <div class="pet-table-header-cell">
+                    Weight
                 </div>
                 <div class="pet-table-header-cell">
                     Actions
@@ -81,13 +84,13 @@
                             ${pupil.id}
                     </div>
                     <div class="pet-table-cell">
-                            ${pupil.age}
-                    </div>
-                    <div class="pet-table-cell">
                             ${pupil.name}
                     </div>
                     <div class="pet-table-cell">
-                            ${pupil.pureRace}
+                            ${pupil.birthDate}
+                    </div>
+                    <div class="pet-table-cell">
+                            ${pupil.race}
                     </div>
                     <div class="pet-table-cell">
                         <a href="${pageContext.request.contextPath}/pet/delete?id=${pupil.id}">Delete</a>

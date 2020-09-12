@@ -91,6 +91,7 @@ a:hover{
 }
 .details-param{
     display: flex;
+    flex-direction: row;
     width: 100%;
 }
 .details-label{
@@ -100,6 +101,7 @@ a:hover{
 }
 .detail{
     display: flex;
+    flex-direction: row;
     width: 50%;
 }
 .pet-container{

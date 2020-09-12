@@ -47,6 +47,7 @@
 
         Name:<input type="text" name="petName"><br/>
         Birth date:<input type="date" name="petBirthDate" ><br/>
+        Weight:<input type="number" name="petWeight"><br/>
     <input type="submit">
 </form>
 </body>

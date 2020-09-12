@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
@@ -43,8 +45,11 @@ public class PetAddServlet extends HttpServlet {
             Owner owner = ownerOptional.get();
 
             Pet pet = Pet.builder()
+                    .name(req.getParameter("nameValue"))
                     .race(Race.valueOf(req.getParameter("raceValue")))
                     .owner(owner)
+                    .weight(Double.valueOf(req.getParameter("weightValue")))
+                    .birthDate(LocalDate.parse(req.getParameter("birthDateValue")))
                     .build();
 
             petEntityDao.saveOrUpdate(pet);
