@@ -50,6 +50,7 @@ public class PetAddServlet extends HttpServlet {
                     .owner(owner)
                     .weight(Double.parseDouble(req.getParameter("petWeight")))
                     .birthDate(LocalDate.parse(req.getParameter("petBirthDate")))
+                    .pureRace(Boolean.parseBoolean(req.getParameter("pureRace")))
                     .build();
 
             petEntityDao.saveOrUpdate(pet);
