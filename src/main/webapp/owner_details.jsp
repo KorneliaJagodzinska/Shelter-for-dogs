@@ -81,13 +81,13 @@
                             ${pupil.id}
                     </div>
                     <div class="pet-table-cell">
-                            ${pupil.value}
+                            ${pupil.age}
                     </div>
                     <div class="pet-table-cell">
-                            ${pupil.subject}
+                            ${pupil.name}
                     </div>
                     <div class="pet-table-cell">
-                            ${pupil.datetimeCreated}
+                            ${pupil.pureRace}
                     </div>
                     <div class="pet-table-cell">
                         <a href="${pageContext.request.contextPath}/pet/delete?id=${pupil.id}">Delete</a>

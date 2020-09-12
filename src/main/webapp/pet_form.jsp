@@ -33,6 +33,8 @@
             <input type="number" value="${requestScope.ownerId}" name="ownerIdValue" hidden>
         </c:otherwise>
     </c:choose>
+
+
     <label for="race">Race:</label>
     <select id="race" name="raceValue">
         <c:forEach items="${requestScope.all_races}" var="race">
@@ -41,8 +43,10 @@
             </option>
         </c:forEach>
     </select>
-
     <br/>
+
+        Name:<input type="text" name="petName"><br/>
+        Birth date:<input type="date" name="petBirthDate" ><br/>
     <input type="submit">
 </form>
 </body>
